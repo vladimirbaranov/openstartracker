@@ -68,7 +68,7 @@ tests/unit_test.sh: PYTHON=...
 for python 3 you may need to install the python 3 versions of the dependencies - ie
 
 ~~~~
-sudo apt-get python3-scipy python3-systemd python3-pip
+sudo apt-get install python3-scipy python3-systemd python3-pip
 sudo -H pip3 install opencv-python
 sudo -H pip3 install astropy
 ~~~~

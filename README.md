@@ -16,7 +16,7 @@ Features:
 
 ##### From a fresh xubuntu 16.04 linux install
 ```
-sudo apt-get install python-scipy libopencv-dev python-opencv swig python-systemd
+sudo apt-get install python-scipy libopencv-dev python-opencv swig python-systemd graphviz
 ```
 
 Additional packages needed for calibration and unit testing:
@@ -71,6 +71,7 @@ for python 3 you may need to install the python 3 versions of the dependencies -
 sudo apt-get python3-scipy python3-systemd python3-pip
 sudo -H pip3 install opencv-python
 sudo -H pip3 install astropy
+sudo pip3 install gprof2dot
 ~~~~
 
 ##### Reference frames used:
